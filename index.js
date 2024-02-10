@@ -27,9 +27,32 @@
 // }
 
 //Exe.4
-const paragrafs = document.querySelectorAll("p");
-const button = document.querySelector("button");
-button.addEventListener("click", onClick);
-function onClick() {
-    paragrafs.forEach((item, index) => item.textContent = index + 1);
-}
+// const paragrafs = document.querySelectorAll("p");
+// const button = document.querySelector("button");
+// button.addEventListener("click", onClick);
+// function onClick() {
+//     paragrafs.forEach((item, index) => item.textContent = index + 1);
+// }
+
+//Exe.5
+// const number = document.querySelector("#test");
+// const result = document.querySelector("#result");
+// const button = document.querySelector("button");
+
+
+// function backResult() {
+//     const inputValue = Number.parseFloat(number.value);
+//     if (!isNaN(inputValue)) {
+//         result.value = inputValue * inputValue;
+//     }
+//     else {
+//         alert("Ввели не число");
+//         number.value = "";
+//     }
+// }
+// button.addEventListener("click", backResult);
+
+//Exe.6
+const title = document.querySelector("h1");
+
+title.create
